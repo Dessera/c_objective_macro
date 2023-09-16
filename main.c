@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "dobjective/class.h"
-#include "dobjective/cleanup.h"
-#include "dobjective/vtable.h"
 #include "test.h"
 
 int main(void) {
