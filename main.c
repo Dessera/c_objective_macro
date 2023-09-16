@@ -12,11 +12,11 @@ int main(void) {
 
   AUTO_CLASS_PTR(Shape) rectangle = CLASS_CALL(Rectangle, NULL, ctor);
 
-  CALL_VTABLE_METHOD(shape, draw);
-  CALL_VTABLE_METHOD_WITH_ARGS(shape, move, 10, 10);
+  CLASS_CALL_VTABLE_METHOD(shape, draw);
+  CLASS_CALL_VTABLE_METHOD_WITH_ARGS(shape, move, 10, 10);
 
-  CALL_VTABLE_METHOD(rectangle, draw);
-  CALL_VTABLE_METHOD_WITH_ARGS(rectangle, move, 10, 10);
+  CLASS_CALL_VTABLE_METHOD(rectangle, draw);
+  CLASS_CALL_VTABLE_METHOD_WITH_ARGS(rectangle, move, 10, 10);
 
   return 0;
 }

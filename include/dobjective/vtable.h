@@ -70,11 +70,11 @@
  * @brief 调用虚函数表中的方法
  * 
  */
-#define CALL_VTABLE_METHOD(instance, name) instance->vtable->name(instance)
+#define CLASS_CALL_VTABLE_METHOD(instance, name) instance->vtable->name(instance)
 
 /**
  * @brief 调用虚函数表中的带参数的方法
  * 
  */
-#define CALL_VTABLE_METHOD_WITH_ARGS(instance, name, ...) \
+#define CLASS_CALL_VTABLE_METHOD_WITH_ARGS(instance, name, ...) \
   instance->vtable->name(instance, __VA_ARGS__)
