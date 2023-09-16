@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "dobjective/classify.h"
+#include "dobjective/class.h"
 
 CLASS_CREATE_VTABLE_IMPL(Shape, Shape){CLASS_SET_VTABLE_METHOD(Shape, draw),
                                        CLASS_SET_VTABLE_METHOD(Shape, move)};

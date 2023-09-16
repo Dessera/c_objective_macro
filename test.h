@@ -1,6 +1,6 @@
 #pragma once
 
-#include "dobjective/classify.h"
+#include "dobjective/class.h"
 
 CLASS_DECLARE(Shape);
 CLASS_VTABLE_DECLARE(Shape);
