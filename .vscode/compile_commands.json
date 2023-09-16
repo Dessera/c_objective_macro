@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/dessera/source/cpp.d/c_objective_macro/build",
+  "command": "/usr/bin/gcc  -I/home/dessera/source/cpp.d/c_objective_macro/include -g -o CMakeFiles/c_objective_macro.dir/main.c.o -c /home/dessera/source/cpp.d/c_objective_macro/main.c",
+  "file": "/home/dessera/source/cpp.d/c_objective_macro/main.c",
+  "output": "CMakeFiles/c_objective_macro.dir/main.c.o"
+},
+{
+  "directory": "/home/dessera/source/cpp.d/c_objective_macro/build",
+  "command": "/usr/bin/gcc  -I/home/dessera/source/cpp.d/c_objective_macro/include -g -o CMakeFiles/c_objective_macro.dir/test.c.o -c /home/dessera/source/cpp.d/c_objective_macro/test.c",
+  "file": "/home/dessera/source/cpp.d/c_objective_macro/test.c",
+  "output": "CMakeFiles/c_objective_macro.dir/test.c.o"
+}
+]
